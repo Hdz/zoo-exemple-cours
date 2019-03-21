@@ -1,5 +1,7 @@
 package zoo;
 
+import java.util.Iterator;
+
 public class AnimalTest {
 
 	public static void main(String[] args) {
@@ -23,6 +25,14 @@ public class AnimalTest {
 		System.out.println("\n Création d'un deuxième animal : Le " + animal2.getNom() + ", Il est de type : "
 				+ animal2.getType() + " venant de la zone : " + nvZone.getZone());
 
+		
+		
+		Iterator<Animal> iterator = Zone.animaux.iterator();
+		while (iterator.hasNext()){
+			Animal temp = iterator.next();
+			System.out.println("Zone : -> "+temp); //+" -> "+list1);
+			
+		}
 	}
 
 }

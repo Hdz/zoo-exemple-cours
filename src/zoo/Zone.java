@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Zone {
 	private String zone;
 	
-	private ArrayList<Animal> animaux = new ArrayList<>();
+	public static ArrayList<Animal> animaux = new ArrayList<>();
 	
 	public void add(Animal animal) {
 		animaux.add(animal);

@@ -1,5 +1,7 @@
 package zoo;
 
+import java.util.Iterator;
+
 class Animal {
 	private String nom;
 	// Stock le nom de l'animal
@@ -48,5 +50,7 @@ class Animal {
 	public String toString() {
 		return "AnimalTest [nom=" + nom + ", type=" + type + "]";
 	}
-	
+
+
+
 }
