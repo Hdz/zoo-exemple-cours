@@ -1,5 +1,5 @@
 package zoo;
 
-public class VoliÃ¨re extends Zone{
+public class Volière extends Zone{
 
 }

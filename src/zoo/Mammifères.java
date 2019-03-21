@@ -1,8 +1,8 @@
 package zoo;
 
-public class MammifÃ¨res extends Animal{
+public class Mammifères extends Animal{
 
-	public MammifÃ¨res() {
+	public Mammifères() {
 		
 		
 	}

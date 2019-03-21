@@ -16,7 +16,7 @@ class Animal {
 
 
 	public Animal(String Anom, String Atype) {
-		System.out.println("CrÃ©ation d'un animal avec paramÃ¨tres");
+		System.out.println("Création d'un animal avec paramètres");
 		this.nom = Anom;
 		this.type = Atype;
 	}
